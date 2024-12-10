@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ønskeliste</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+        <!-- For importing new font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1><img src="images/christmas-decorations.png">Ønskeliste til julenissen<img src="images/christmas-decorations.png"></h1>
+    
+    <p> Har du vært snill i år? Hmm, jeg er ikke helt sikker, men ok, du kan få velge én gave.<br/><br/><b>Bare én!</b> </p>
+
+<!-- First "Click to submit" button and paths to CSS and JS -->
+
+    <button class="button" onclick="showForm()" id="square">Click to submit</button>
+           
+<!-- All for next step. Where to write and submit text -->
+
+    <div id="formContainer" style="display: none;">
+        <input type="text" class="input" id="textInput" placeholder="Sooo....?">
+        <button class="bbb" onclick="submitText()">Submit</button>
+        <p id="textList" class="forList"></p>
+    </div>
+        
+<!-- Custom Alert Modal -->
+
+    <div id="customAlert" class="alertModal" style="display: none;">
+        <div class="alertContent">
+            <p id="alertMessage">Noen har vært litt rampete, ja… Jeg sa jo, bare én gave! Ikke prøv deg!</p>
+            <button onclick="closeAlert()">Okey... Okey...</button>
+        </div>
+    </div>
+
+</body>
+</html>

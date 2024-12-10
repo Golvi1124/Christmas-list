@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/gifts-mel-poole.jpg);
+    background-size: cover; /* Scales the image to cover the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    min-height: 100vh; /* Ensures the body covers the viewport height */
+    text-align: center;
+    color: rgb(226, 162, 23);
+  }
+  
+h1 {
+    color: rgb(14, 218, 92);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+  }
+
+p {
+    text-align: center;
+    font-size: 200%;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgb(13, 66, 27);
+    
+  }
+
+div {
+    text-align: center;
+  }
+
+/* For first "Click to submit button"..copied from internet and did't dare change much. */
+
+.button {
+    border: solid;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background-image: url(images/gift-rob-laughter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    color: rgb(247, 245, 244);
+    text-decoration: solid;
+    text-decoration-line: underline;
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+/* For text input place */
+
+.input {
+    width: 30%; 
+    height: 20%; 
+    padding: 10px; 
+    font-size: 16px; 
+  }
+
+/* Second button to submit text...also copied from internet and did't dare change much. */
+.bbb {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* New font info and aplying to list text */
+
+
+.fontdiner-swanky-regular {
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+.forList {
+    color: rgb(27, 27, 236);
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 400;
+  }
+
+
+
+
+/* Everything for and about custom Alert message. ChatGPT and mostly don't understand, but hey, it works*/
+
+.alertModal {
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    color: black;
+    border-style: solid;
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+.alertContent {
+    background-color: #ad1515;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+
+.alertContent p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+.alertContent button {
+    background-color: #6d726d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+.alertContent button:hover {
+    background-color: #26fa31;
+  }
